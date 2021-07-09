@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shakespeare-way</title>
+
+    <style>
+      textarea {
+        width: 80%;
+        height: 10vh;
+
+        margin: 1rem;
+        padding: 3rem;
+        max-width: 1000px;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+      }
+
+      #output {
+        border: 1px solid rgb(37, 13, 13);
+        height: 10vh;
+        width: 80%;
+        margin: 1rem;
+        padding: 3rem;
+        display: block;
+        background: white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
+        border-bottom-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+   
+    <header><h1>Do it Shakespeare's Way</h1></header>
+
+    <textarea
+      id="input-User"
+      placeholder="Type ypur sentence here to get the result.."
+    ></textarea>
+    <button id="btn-Translate">See How Would Shakespeare say this</button>
+    <script src="app.js" type="text/javascript"></script>
+
+    <div id="output"></div>
+    
+  </body>
+</html>
