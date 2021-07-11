@@ -57,7 +57,7 @@ button{
 
  .footer {
     background-color: var(--primary-color);
-    padding: 2rem;
+    padding: 2rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
@@ -69,6 +69,7 @@ button{
     text-decoration: none;
     font-size: large;
     font-weight: bold;
+    text-align: center;
 }
 .footer .footer-header{
     font-weight: bold;
@@ -80,8 +81,10 @@ button{
 .list-item-inline {
     display: inline;
     padding: 2rem;
+    text-align: center;
    
 }
 .span{
     color: yellow;
 }
+
