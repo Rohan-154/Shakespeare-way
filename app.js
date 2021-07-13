@@ -23,4 +23,5 @@ function hoverHandler() {
 
     .catch(errorHandler);
 }
+
 btnTranslate.addEventListener("click", hoverHandler);

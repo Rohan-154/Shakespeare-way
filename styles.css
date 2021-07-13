@@ -35,27 +35,27 @@ header {
 .heading {
     color: yellow;
     text-align: center;
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
     margin: 0rem;
 }
 
-button{
+button {
     background-color: #F59E0B;
     border: none;
-    color:black;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    
+
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 1rem;
- }
+}
 
- .footer {
+.footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
@@ -65,27 +65,29 @@ button{
     padding-right: 4rem;
 
 }
+
 .footer .link {
     color: yellow;
     text-decoration: none;
     font-size: large;
     font-weight: bold;
-    
+
 }
-.footer .footer-header{
+
+.footer .footer-header {
     font-weight: bold;
     font-size: x-large;
-    color:white;
-    
+    color: white;
+
 }
 
 .list-item-inline {
     display: inline;
     padding: 2rem;
-    
-   
-}
-.span{
-    color: yellow;
+
+
 }
 
+.span {
+    color: yellow;
+}
