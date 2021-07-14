@@ -72,22 +72,33 @@ button {
     font-size: large;
     font-weight: bold;
 
+    
 }
 
 .footer .footer-header {
     font-weight: bold;
     font-size: x-large;
     color: white;
+    
 
 }
 
 .list-item-inline {
     display: inline;
     padding: 2rem;
-
+    
 
 }
 
 .span {
     color: yellow;
 }
+.fab {
+    color: #60A5FA;
+    
+    
+}
+.link{
+    size: 100vh;
+}
+    
