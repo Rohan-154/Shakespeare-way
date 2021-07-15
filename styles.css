@@ -72,33 +72,40 @@ button {
     font-size: large;
     font-weight: bold;
 
-    
+
 }
 
 .footer .footer-header {
     font-weight: bold;
     font-size: x-large;
     color: white;
-    
+
 
 }
 
 .list-item-inline {
     display: inline;
     padding: 2rem;
-    
+
 
 }
 
 .span {
     color: yellow;
 }
-.fab {
-    color: #60A5FA;
-    
-    
+
+.fa-twitter-square {
+    color: #00acee;
+
+
 }
-.link{
-    size: 100vh;
+
+.fa-github-square {
+
+    color: #211F1F;
+
+
 }
-    
+.fa-linkedin{
+    color: #0077b5;
+}
